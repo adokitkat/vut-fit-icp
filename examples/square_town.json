@@ -1,0 +1,273 @@
+{
+    "lines": [
+      {
+        "no": 1,
+        "color": "red",
+        "start": "Letisko",
+        "goes": ["Hlavna", "Kolma", "Partizanska", "Autobusova stanica"],
+        "end": "Dolna"
+      },
+      {
+        "no": 2,
+        "color": "blue",
+        "start": "Nakupne centrum",
+        "goes": ["Nemocnica"],
+        "end": "Autobusova stanica"
+      },
+      {
+        "no": 3,
+        "color": "orange",
+        "start": "Zeleznicna stanica",
+        "goes": ["Trnavska", "Maleho", "Strojnicka", "Cukrova"],
+        "end": "Cintorin"
+      }
+    ],
+  
+    "stops": [
+      {
+        "name": "Zeleznicna stanica",
+        "x": 500,
+        "y": 80
+      },
+      {
+        "name":  "Cintorin",
+        "x": 10,
+        "y": 10
+      },
+      {
+        "name": "Maleho",
+        "x": 300,
+        "y": 10
+      },
+      {
+        "name": "Stredne namestie",
+        "x": 200,
+        "y": 200
+      },
+      {
+        "name": "Hlavna",
+        "x": 440,
+        "y": 200
+      },
+      {
+        "name": "Kolma",
+        "x": 400,
+        "y": 120
+      },
+      {
+        "name": "Letisko",
+        "x": 600,
+        "y": 300
+      },
+      {
+        "name": "Dolna",
+        "x": 50,
+        "y": 500
+      },
+      {
+        "name": "Nemocnica",
+        "x": 350,
+        "y": 500
+      },
+      {
+        "name": "Nakupne centrum",
+        "x": 400,
+        "y": 400
+      },
+      {
+        "name": "Skacelova",
+        "x": 400,
+        "y": 300
+      },
+      {
+        "name": "Skola",
+        "x": 200,
+        "y": 400
+      },
+      {
+        "name": "Urad vlady",
+        "x": 120,
+        "y": 280
+      },
+      {
+        "name": "Autobusova stanica",
+        "x": 10,
+        "y": 170
+      },
+      {
+        "name": "Cukrova",
+        "x": 100,
+        "y": 100
+      },
+      {
+        "name": "Strojnicka",
+        "x": 190,
+        "y": 55
+      },
+      {
+        "name": "Partizanska",
+        "x": 250,
+        "y": 150
+      },
+      {
+        "name": "Trnavska",
+        "x": 370,
+        "y": 55
+      }
+    ],
+  
+    "streets": [
+      {
+        "name": "Stanicna ulica",
+        "start": [500,10],
+        "mid": [[500,80],[500,100]],
+        "end": [500,200]
+      },
+      {
+        "name": "Dlha ulica",
+        "start": [250,10],
+        "mid": [[300,10], [370,10]],
+        "end": [500,10]
+      },
+      {
+        "name": "Velkeho ulica",
+        "start": [10,10],
+        "mid": [[50,10],[190,10]],
+        "end": [250,10]
+      },
+      {
+        "name": "Maleho ulica",
+        "start": [10,10],
+        "mid": [],
+        "end": [10,100]
+      },
+      {
+        "name": "Okruzna ulica",
+        "start": [10,100],
+        "mid": [[10,170],[10,200],[10,400]],
+        "end": [10,500]
+      },
+      {
+        "name": "Dolna ulica",
+        "start": [10,500],
+        "mid": [[50,500]],
+        "end": [200,500]
+      },
+      {
+        "name": "Hlavna ulica",
+        "start": [10,200],
+        "mid": [[100,200],[130,200],[200,200],[250,200],[300,200],[400,200],[440,200]],
+        "end": [500,200]
+      },
+      {
+        "name": "Kolma ulica",
+        "start": [400,100],
+        "mid": [[400,120]],
+        "end": [400,200]
+      },
+      {
+        "name": "Prava ulica",
+        "start": [500,200],
+        "mid": [[500,250],[500,300],[500,400]],
+        "end": [500,500]
+      },
+      {
+        "name": "Slovenska ulica",
+        "start": [200,500],
+        "mid": [[300,500],[350,500]],
+        "end": [500,500]
+      },
+      {
+        "name": "Vesela ulica",
+        "start": [300,200],
+        "mid": [[300,300],[300,400]],
+        "end": [300,500]
+      },
+      {
+        "name": "Mojsejova ulica",
+        "start": [500,250],
+        "mid": [[600,250]],
+        "end": [600,300]
+      },
+      {
+        "name": "Skacelova ulica",
+        "start": [300,300],
+        "mid": [[400,300]],
+        "end": [500,300]
+      },
+      {
+        "name": "Skolska ulica",
+        "start": [10,400],
+        "mid":[[150,400],[200,400]],
+        "end": [300,400]
+      },
+      {
+        "name": "Zochova ulica",
+        "start": [100,200],
+        "mid": [[120,280]],
+        "end": [150,400]
+      },
+      {
+        "name": "Obchodna ulica",
+        "start": [400,400],
+        "mid": [],
+        "end": [500,400]
+      },
+      {
+        "name": "Einsteinova ulica",
+        "start": [10,100],
+        "mid": [[50,100], [100,100], [130,100],[190,100],[250,100],[370,100],[400,100]],
+        "end": [500,100]
+      },
+      {
+        "name": "Cintorinska ulica",
+        "start": [50,10],
+        "mid": [],
+        "end": [50,100]
+      },
+      {
+        "name": "Cukrova ulica",
+        "start": [130,100],
+        "mid": [],
+        "end": [130,200]
+      },
+      {
+        "name": "Strojnicka ulica",
+        "start": [190,10],
+        "mid": [[190,55]],
+        "end": [190,100]
+      },
+      {
+        "name": "Partizanska ulica",
+        "start": [250,100],
+        "mid": [[250,150]],
+        "end": [250,200]
+      },
+      {
+        "name": "Trnavska ulica",
+        "start": [370,10],
+        "mid": [[370,55]],
+        "end": [370,100]
+      }
+  
+    ],
+  
+    "buses": [
+      {
+        "no": 42,
+        "lineno": 1,
+        "startat": 0
+      },
+      {
+        "no": 69,
+        "lineno": 2,
+        "startat": 10
+      },
+      {
+        "no": 99,
+        "lineno": 3,
+        "startat": 5
+      }
+    ]
+  }
+  

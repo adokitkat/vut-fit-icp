@@ -1,0 +1,273 @@
+{
+    "lines": [
+        {
+          "no": 1,
+          "color": "red",
+          "start": "West station",
+          "goes": ["Park"],
+          "end": "Castle"
+        },
+        {
+            "no": 2,
+            "color": "blue",
+            "start": "Train station",
+            "goes": [],
+            "end": "East View"
+        },
+        {
+            "no": 3,
+            "color": "orange",
+            "start": "Endless station",
+            "goes": ["Arena"],
+            "end": "East station"
+        }
+    ],
+
+
+    "stops": [
+        {
+            "name": "Park",
+            "x": 130,
+            "y": 10
+        },
+        {
+            "name": "Train station",
+            "x": 10,
+            "y": 440
+        },
+        {
+            "name": "West station",
+            "x": 10,
+            "y": 90
+        },
+        {
+            "name": "East station",
+            "x": 550,
+            "y": 50
+        },
+        {
+            "name": "Castle",
+            "x": 520,
+            "y": 350
+        },
+        {
+            "name": "East View",
+            "x": 550,
+            "y": 480
+        },
+        {
+            "name": "Endless station",
+            "x": 10,
+            "y": 550
+        },
+        {
+            "name": "University",
+            "x": 130,
+            "y": 550
+        },
+        {
+            "name": "School",
+            "x": 250,
+            "y": 500
+        },
+        {
+            "name": "Arena",
+            "x": 300,
+            "y": 280
+        },
+        {
+            "name": "Restaurant",
+            "x": 300,
+            "y": 380
+        },
+        {
+            "name": "Museum",
+            "x": 420,
+            "y": 275
+        },
+        {
+            "name": "Pub",
+            "x": 450,
+            "y": 120
+        },
+        {
+            "name": "Cinema",
+            "x": 350,
+            "y": 125
+        },
+        {
+            "name": "Theatre",
+            "x": 180,
+            "y": 430
+        },
+        {
+            "name": "Shop",
+            "x": 50,
+            "y": 330
+        },
+        {
+            "name": "Church",
+            "x": 175,
+            "y": 230
+        },
+        {
+            "name": "Hospital",
+            "x": 275,
+            "y": 50
+        }
+        
+    ],
+
+    "streets": [
+        {
+            "name": "Eastfield Drive",
+            "start": [450,50],
+            "mid": [],
+            "end": [550,50]
+        },      
+        {
+            "name": "Well Street",
+            "start": [250,50],
+            "mid": [[250,230],[250,280],[250,380],[250,430],[250,500]],
+            "end": [250,550]
+        },
+        {
+            "name": "Eastern Avenue",
+            "start": [350,50],
+            "mid": [[350,125],[350,200],[350,280],[350,380],[350,480]],
+            "end": [350,550]
+        },
+        {
+            "name": "Norman Road",
+            "start": [250,50],
+            "mid": [[275,50],[300,50]],
+            "end": [350,50]
+        },
+        {
+            "name": "Kestrel Close",
+            "start": [300,10],
+            "mid": [],
+            "end": [300,50]
+        },
+        {
+            "name": "Broomhill Edge",
+            "start": [300,10],
+            "mid": [],
+            "end": [450,10]
+        },
+        {
+            "name": "Cobden Street",
+            "start": [250,280],
+            "mid": [[300,280]],
+            "end": [350,280]
+        },
+        {
+            "name": "Gordon Street",
+            "start": [250,380],
+            "mid": [[300,380]],
+            "end": [350,380]
+        },
+        {
+            "name": "Herbert Road",
+            "start": [450,10],
+            "mid": [[450,50],[450,120]],
+            "end": [450,200]
+        },
+        {
+            "name": "Blenheim Road",
+            "start": [350,200],
+            "mid": [[420,200]],
+            "end": [450,200]
+        },
+        {
+            "name": "The Mead",
+            "start": [420,200],
+            "mid": [[420,275]],
+            "end": [420,350]
+        },
+        {
+            "name": "Castle Road",
+            "start": [420,350],
+            "mid": [],
+            "end": [520,350]
+        },
+        {
+            "name": "East View",
+            "start": [350,480],
+            "mid": [],
+            "end": [550,480]
+        },
+        {
+            "name": "Union Road",
+            "start":[10,550],
+            "mid": [[130,550],[250,550]],
+            "end": [350,550]
+        },
+        {
+            "name": "West Lane",
+            "start": [10,50],
+            "mid": [[130,50]],
+            "end": [250,50]
+        },
+        {
+            "name": "Park Avenue",
+            "start": [130,10],
+            "mid": [],
+            "end": [130,50]
+        },
+        {
+            "name": "Front Street",
+            "start": [10,50],
+            "mid": [[10,90],[10,330]],
+            "end": [10,440]
+        },
+        {
+            "name": "Country Road",
+            "start": [10,330],
+            "mid": [[50,330]],
+            "end": [110,330]
+        },
+        {
+            "name": "Cow Lane",
+            "start": [110,230],
+            "mid": [],
+            "end": [110,330]
+        },
+        {
+            "name": "Green Lane",
+            "start": [110,330],
+            "mid": [],
+            "end": [110,430]
+        },
+        {
+            "name": "George Street",
+            "start": [110,230],
+            "mid": [[175,230]],
+            "end": [250,230]
+        },
+        {
+            "name": "New Street",
+            "start": [110,430],
+            "mid": [[180,430]],
+            "end": [250,430]
+        }
+    ],
+
+    "buses": [
+        {
+            "no": 97,
+            "lineno": 1,
+            "startat": 0
+        },
+        {
+            "no": 98,
+            "lineno": 2,
+            "startat": 5
+        },
+        {
+            "no": 99,
+            "lineno": 3,
+            "startat": 7
+        }
+    ]
+  }
